@@ -51,5 +51,5 @@ io.on('connection', (socket) => {
 
 const port = process.env.PORT || 3000
 server.listen(port)
-console.log('SocketIO Server listening on port 3000')
+console.log("SocketIO Server listening on port", port)
 
